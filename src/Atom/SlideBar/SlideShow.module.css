@@ -1,0 +1,14 @@
+.img{
+    height: 29rem;
+    width: 100vw;
+}
+.Caption{
+    background-color: black;
+    opacity: 0.9;
+}
+@media (max-width:500px){
+    .img{
+        height: 35rem;
+        width: 100vw;
+    }
+}

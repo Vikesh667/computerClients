@@ -1,0 +1,12 @@
+.Link{
+    text-decoration: none;
+    color: black;
+}
+.opt h4{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.opt h4:hover{
+    color: blue;
+}

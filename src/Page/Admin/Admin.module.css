@@ -1,0 +1,77 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/922/804/907/light-laptop-notebook-lighting-wallpaper-preview.jpg");
+    background-size: cover;
+}
+.form{
+    padding: 4rem;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: white;
+    text-align: center;
+}
+.navBar{
+    width: 100vw;
+}
+.form {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes zoomIn {
+    0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+    }
+    50% {
+    opacity: 1;
+    }
+    }
+    @keyframes zoomIn {
+    0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+    }
+    50% {
+    opacity: 1;
+    }
+    } 
+  
+    .Regis{
+        color: rgb(255, 255, 255);
+    }
+    .form input{
+        border: none;
+        outline: none;
+        height: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 20rem;
+    }
+    .form button{
+        width: 10rem;
+        height: 3rem;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        background-color: blue;
+        color: white;
+        border: none;
+        font-size: large;
+        font-weight: 700;
+    }
+    .form button:hover{
+        background-color: green;
+    }

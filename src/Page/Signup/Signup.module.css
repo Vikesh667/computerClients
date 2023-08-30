@@ -1,0 +1,54 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/999/339/desktop-wallpaper-computer-backgrounds-suhu-computer-science-backgrounds.jpg");
+    background-size: cover;
+}
+.form{
+    padding: 1rem 4rem 1rem 4rem;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 3rem;
+}
+.navBar{
+    width: 100vw;
+}
+.form {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes zoomIn {
+    0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+    }
+    50% {
+    opacity: 1;
+    }
+    }
+    @keyframes zoomIn {
+    0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+    }
+    50% {
+    opacity: 1;
+    }
+    } 
+    .login{
+        position: absolute;
+        margin-left: 16rem;
+        margin-top: -2rem;
+        color: blue;
+    }

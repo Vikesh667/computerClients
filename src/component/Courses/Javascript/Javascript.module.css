@@ -1,0 +1,155 @@
+.main{
+    padding-top: 7rem;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/922/804/907/light-laptop-notebook-lighting-wallpaper-preview.jpg");
+    background-size: cover;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+.img{
+    height: 2rem;
+}
+.box1{
+   color: white;
+   width: 70rem;
+   padding: 3rem;
+   backdrop-filter: blur(15px);
+   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.box1 button{
+   padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+   font-weight: 700;
+   background-color: white;
+   border: none;
+   margin-top: 1rem;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.box1 button:hover{
+    background-color: blue;
+    color: white;
+}
+.box2{
+    color: white;
+    width: 70rem;
+    padding: 3rem;
+    backdrop-filter: blur(15px);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    height: 5rem;
+   
+ }
+ .box2 ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1rem;
+ }
+ .box2 ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+ }
+ .box2 ul li p{
+   position: absolute;
+   top: 25%;
+ }
+ .box2 ul li span{
+   position: absolute;
+   margin-left: -3rem;
+   margin-top: -2.5rem;
+   font-size: 2rem;
+ }
+ .box3{
+    color: white;
+    width: 70rem;
+    padding: 3rem;
+    backdrop-filter: blur(15px);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    display: flex;
+ }
+ .box3 div{
+    width: 50%;
+ }
+ .innerbox3{
+    padding-left: 5rem;
+ }
+ .box4{
+    width: 70rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    color: white;
+    backdrop-filter: blur(15px);
+    
+ }
+ .innerBox4{
+    padding: 2rem;
+ }
+ @media (max-width:800px){
+    .box1{
+        width: 50rem;
+    }
+    .box2{
+        width: 50rem;
+        height: max-content;
+       
+    }
+    .box4{
+        width: 50rem;
+    }
+    .box2 ul{
+        flex-direction: column;
+        gap: 5rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .box2 ul li p{
+       position: static;    
+  
+    }
+    .box2 ul li{
+     flex-direction: column;
+     padding: 3rem;
+    }
+    .box2 ul li span{
+        position: absolute;
+        right: 47%;
+        margin-top: -2.7rem;
+        font-size: 2rem;
+      }
+      .box3{
+        flex-direction: column;
+        width: 50rem;
+        gap: 1rem;
+      }
+      .box3 div{
+        width: 100%;
+     }
+     .innerbox3{
+        padding-left: 0rem;
+     }
+ }
+ @media (max-width:500px){
+    .box1{
+        width: 30rem;
+    }
+    .box2{
+        width: 30rem;
+        height: max-content;
+       
+    }
+    .box4{
+        width: 30rem;
+    }
+    .box2 ul li span{
+        position: absolute;
+        right: 45%;
+        margin-top: -2.7rem;
+        font-size: 2rem;
+    }
+    .box3{
+        width: 30rem;
+    }
+ }

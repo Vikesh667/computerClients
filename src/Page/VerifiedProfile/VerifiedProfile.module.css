@@ -1,0 +1,74 @@
+.home{
+    background-color: black;
+    height: 100vh;
+    color: aliceblue;
+    display: flex;
+    padding-bottom: 4rem;
+}
+.img{
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    margin-top: 8rem;
+    margin-left: 2rem;
+    background-color: aliceblue;
+    border-radius: 50%;
+    border: 2px rgb(0, 0, 0) solid;
+}
+.container{
+    width: 100%;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+.rightBar{
+    width: 20rem;
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 6rem;
+    gap: 1rem;
+    border-right: 1px rgb(255, 255, 255) solid;
+}
+.rightBar ul{
+    list-style: none;
+}
+.rightBar h5{
+    align-items: center;
+   display: flex;
+   gap: 1rem;
+}
+.rightBar h5:hover{
+    color: red;
+}
+.Profilebg{
+    height: 13rem;
+}
+.ProfileData{
+    padding-left: 3rem;
+    display: flex;
+    gap: 6rem;
+    padding-top: 1rem;
+}
+.ProfileData h3{
+    margin-top: 5rem;
+}
+.info{
+    display: flex;
+    width: 30rem;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width:700px) {
+   .ProfileData {
+    flex-direction: column;
+   }
+   .rightBar{
+    padding-left: 1rem;
+   }
+}
+@media (max-width:500px) {
+     .rightBar{
+        display: none;
+     }
+}

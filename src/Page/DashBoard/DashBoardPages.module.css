@@ -1,0 +1,109 @@
+.main{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/922/804/907/light-laptop-notebook-lighting-wallpaper-preview.jpg");
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+}
+.container{
+    margin-top: 3rem;
+    border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 2rem;
+   backdrop-filter: blur(15px);
+   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.container h3{
+    width: 40rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container h3 span{
+    font-size: medium;
+}
+.img{
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.rightBar{
+    width: 40rem;
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 6rem;
+    gap: 1rem;
+    height: 100vh;
+}
+.infoBox{
+    border-left: 1px rgb(255, 255, 255) solid;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    overflow-y: scroll;
+}
+.Graph{
+  z-index: 9999;
+}
+.inputBox{
+    position: absolute;
+    z-index: 99;
+    top: 12%;
+    height: 3rem;
+    width: 20rem;
+    border: none;
+    outline: none;
+    padding: 0rem 3rem 0rem 3rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 20px;
+}
+.infoBox::-webkit-scrollbar{
+    display: none;
+}
+.buttons{
+    position: absolute;
+    top: 5%;
+    right: 2%;
+    display: flex;
+    gap: 1rem;
+}
+.buttons button{
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-size: large;
+}
+@media (max-width:1151px){
+    .rightBar{
+     width: 30rem;
+     padding-top: 20rem;
+    }
+    .inputBox{
+        width: 15rem;
+    }
+}
+@media (max-width:711px){
+    .rightBar{
+        display: none;
+    }
+}
+@media (max-width:711px){
+    .container h3{
+        width: 30rem;
+    }
+}
+.querybox{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 20px;
+}

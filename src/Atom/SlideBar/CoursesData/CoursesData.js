@@ -1,0 +1,17 @@
+export const CourseData=[
+    {name:"JavaScript",
+    para:"Learn how to use Java- Java is the foundation for virtually every type of networked application and is the global standard for developing and delivering embedded and mobile applications, games, web-based content, and enterprise software",
+   },
+    {name:"Java",
+    para:"Learn how to use Java- Java is the foundation for virtually every type of networked application and is the global standard for developing and delivering embedded and mobile applications, games, web-based content, and enterprise software",
+   },
+    {name:"Python",
+    para:"Learn how to use Java- Java is the foundation for virtually every type of networked application and is the global standard for developing and delivering embedded and mobile applications, games, web-based content, and enterprise software",
+   },
+    {name:"C++",
+    para:"Learn how to use Java- Java is the foundation for virtually every type of networked application and is the global standard for developing and delivering embedded and mobile applications, games, web-based content, and enterprise software",
+   },
+    {name:"Django",
+    para:"Learn how to use Java- Java is the foundation for virtually every type of networked application and is the global standard for developing and delivering embedded and mobile applications, games, web-based content, and enterprise software",
+   },
+]

@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+
 import './App.css';
+import HomePage from './Page/HomePage/HomePage';
+import RegisterUserHome from './Page/RegisterUserHome/RegisterUserHome';
+import NavBar from './component/NavBar/NavBar';
+import { useState } from 'react';
+
+
+
 
 function App() {
+
+
+  const [show,setShow] = useState(JSON.parse(localStorage.getItem("verified") || false)) 
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar />
+      {show.verified ? <RegisterUserHome />  :<HomePage /> }
+   
+
     </div>
   );
 }

@@ -1,0 +1,49 @@
+.img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+.container{
+   /* border: 1px red solid; */
+   background-image: url("https://i.pinimg.com/236x/65/a1/28/65a128ad63d9110ebd2629595460a75c.jpg");
+   background-size: cover;
+   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/922/804/907/light-laptop-notebook-lighting-wallpaper-preview.jpg");
+    background-size: cover;
+}
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px red solid; */
+    padding: 2rem;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px red solid; */
+    padding: 2rem;
+}
+.barcode{
+    height: 8rem;
+    width: 18rem;
+}
+.box3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+}
+.btn{
+    position: absolute;
+    top: 1%;
+    right: 4%;
+}

@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/922/804/907/light-laptop-notebook-lighting-wallpaper-preview.jpg");
+    background-size: cover;
+    /* border: 1px red solid; */
+}
+
+.Form{
+    font-weight: 500;
+    width: 70rem;
+    height: 30rem;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline-start: 2rem  ;
+    padding-inline-end: 2rem  ;
+    box-shadow: 3px 9px 15px 7px black ;   
+    backdrop-filter: blur(15px);
+    color: white;
+}
+.navbar{
+    position: fixed;
+    width: 100vw;
+}
+.Form h1{
+    text-align: center;
+} 
+.gender{
+    border: none;
+    height: 2.3rem;
+    width: 15rem;
+    border-radius: 6px;
+    outline: none;
+}
+.btn{
+    width: 10rem;
+}
+@media(max-width:768px){
+    .Form{
+        box-shadow: none;
+        margin-top: 0rem;
+        height: 100vh;
+    }
+    .container{
+        height: max-content;
+    }
+}

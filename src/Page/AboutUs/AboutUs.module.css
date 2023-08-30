@@ -1,0 +1,58 @@
+.main{
+    display: flex;
+    height: 100vh;
+    background-image: url("https://images3.alphacoders.com/100/1006696.png");
+    background-size: cover;
+ 
+}
+.main div{
+  width: 50%;
+}
+.box1{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 4rem 1rem 4rem;
+    color: white;
+}
+.box1 button{
+    width: 10rem;
+    border-radius: 20px;
+    border: none;
+    font-size: large;
+    font-weight: 700;
+    height: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 10px 12px;
+    background-color: blue;
+    color: white;
+}
+.box1 button:hover{
+    background-color: green;
+}
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.img{
+    height: 20rem;
+    filter: drop-shadow(1rem 1rem 1rem rgb(0, 0, 0));
+}
+@media (max-width:800px){
+    .main{
+        flex-direction: column;
+        gap: 8rem;
+    }
+    .main div{
+        width: 100%;
+    }
+    .img{
+        height: 20rem;
+    }
+    .box1 button{
+        font-size: small;
+    }
+  
+}
